@@ -1,0 +1,23 @@
+.cows {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.plus-more {
+    border: 1px solid purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .cows {
+        width: 100vw;
+    }
+}
